@@ -26,17 +26,13 @@
   text-align: center;
 }
 
-.stats__expenses-wrapper {
-  padding: 0 46px;
-}
-
-.stats__text {
+.stats-expenses__text {
   line-height: 20px;
   text-align: center;
   color: #000000;
 }
 
-.stats__expenses {
+.stats-expenses__expenses {
   line-height: 20px;
   text-align: center;
   color: #000000;
@@ -70,20 +66,14 @@
     line-height: 14px;
   }
 
-  .stats__expenses-wrapper {
-    display: flex;
-    flex-flow: column wrap;
-    padding: 0;
-  }
-
-  .stats__text {
+  .stats-expenses__text {
     font-size: 20px;
     line-height: 20px;
     text-align: right;
     color: #000000;
   }
 
-  .stats__expenses {
+  .stats-expenses__expenses {
     font-size: 20px;
     line-height: 20px;
     text-align: right;

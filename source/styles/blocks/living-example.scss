@@ -36,6 +36,10 @@
   margin-bottom: 20px;
 }
 
+.living-example__stats-expenses {
+  padding: 0 46px;
+}
+
 .living-example__result-slider {
   position: relative;
   top: -279px;
@@ -141,6 +145,12 @@
     gap: 43px;
     margin: 0;
     margin-bottom: 99px;
+  }
+
+  .living-example__stats-expenses {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0;
   }
 
   .living-example__result-slider {
